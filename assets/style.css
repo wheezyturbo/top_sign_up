@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+    font-family: poppins;
 }
 :root{
     --content-right-width:63vw;
@@ -21,6 +25,7 @@
     color:white;
 }
 
+
 .logo{
     margin-top: 30%;
     display: flex;
@@ -28,4 +33,19 @@
     align-items: center;
     justify-content: center;
     background-color:rgba(0, 0, 0, 0.375);
+    /* font-weight: bold; */
+}
+.logo>h1{
+   font-weight: 700;
+   color:pink;
+   font-weight: bold;
+}
+.bottom{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.logo-icon{
+    width:100px;
 }
