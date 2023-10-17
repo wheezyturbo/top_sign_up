@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <main>
         <div class="content-left">
@@ -16,9 +18,49 @@
             <p class="bottom">hello brudda</p>
         </div>
         <div class="content-right">
+            <div class="paragraphs">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam nisi tempore, nostrum eum
+                    animi, placeat ullam rerum aliquam illum unde voluptas consectetur architecto? Culpa ad cum sed
+                    reprehenderit sint.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <form action="">
+                <div class="input">
+                    <h3>LTS Release</h3>
+                    <div class="input-grp">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="input-grp">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                    </div>
+                    <div class="input-grp">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-grp">
+                        <label for="phone">Phone Number</label>
+                        <input type="phone" name="phone" id="phone" required>
+                    </div>
+                    <div class="input-grp">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                        <p class="invalid"></p>
+                    </div>
+                    <div class="input-grp">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="form-btn" type="submit">Create Account</button>
+                </div>
+            </form>
 
         </div>
     </main>
-    
+
 </body>
+
 </html>
