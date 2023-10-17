@@ -131,3 +131,11 @@ input:focus{
 input:valid{
     background-color: whitesmoke;
 }
+.invalid{
+    color:red;
+}
+.login{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left:50px;
+}
