@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 
 const invalid = document.querySelector(".invalid");
 
-form.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
   const pass = document.getElementById("password");
   const conf = document.getElementById("confirmpassword");
